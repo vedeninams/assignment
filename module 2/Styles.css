@@ -8,10 +8,6 @@
  	color:white;
  }
 
-.bg {
-  background-color: black;
- }
-
 h1 {
 	text-align: center;
 	background-image:url("kandinskiy.jpg");
@@ -19,20 +15,46 @@ h1 {
  }
 
 h2{
- 	text-align: right;
+ 	float: right;
+  text-align: center;
+  border: 1px solid white;
+  padding: 3px;
+  width: 200px;
+  font-size:175%;
+ }
+
+ p{
+  padding: 7px;
+  overflow: auto;
+  height:200px;
+  font-family: serif;
+  font-size:125%;
  }
 
 section {
   padding:10px;
   border: 1px solid white;
+  background-color: #272727;
 }
 
  div > div {
- 	/*border: 3px solid white;*/
  	float:left;
- 	padding: 2%;
- 	/*margin:10px;*/
+ 	padding: 1.5%;
  }
+
+#bg {
+  background-color: black;
+ }
+
+#sec1 {
+  background-color: #1b3b32;
+}
+#sec2 {
+  background-color: #922e2f;
+}
+#sec3 {
+  background-color: #2c3e6b;
+}
 
  /******Large devices only*******/
 @media (min-width: 992px) {
