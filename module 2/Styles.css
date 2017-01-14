@@ -15,7 +15,10 @@ h1 {
  }
 
 h2{
- 	float: right;
+ 	position:absolute;
+  top: 0px;
+  right: 0px;
+  /*float: right;*/
   text-align: center;
   border: 1px solid white;
   padding: 3px;
@@ -24,14 +27,17 @@ h2{
  }
 
  p{
-  padding: 7px;
+  padding: 40px 7px 7px 7px;
   overflow: auto;
   height:200px;
   font-family: serif;
   font-size:125%;
+  /*position:relative;*/
  }
 
 section {
+  /*float:both;*/
+  position:relative;
   padding:10px;
   border: 1px solid white;
   background-color: #272727;
