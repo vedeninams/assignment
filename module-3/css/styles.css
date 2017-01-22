@@ -1,0 +1,93 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Ruslan Display', cursive, serif;
+	font-size: 16px;
+}
+
+#header-nav {
+	background-color: green;
+	border-radius: 0;
+	border: 0px;
+	border-bottom: #3a3b3b 3px solid;
+}
+
+/************ BEGINNING of Branding *************/
+.container .navbar-header div.navbar-brand {
+	margin-bottom: 80px;
+}
+.navbar-brand h1 {
+	color: white;
+	text-align: left;
+	font-size: 3em;
+}
+/************* END of Branding *************/
+ 
+/******* BEGINNING of Menu butttons *************/
+#nav-list {
+	margin-top: 15px;
+}
+
+#nav-list a { 
+	color:white;
+	text-align: center;
+}
+
+#nav-list a {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, /*Border of the button*/ 
+.navbar-header .icon-bar /*Lines on the button*/ {
+	border: 3px solid white;
+	background-color: black;
+}
+
+.navbar-header button.navbar-toggle {
+margin-top: 40px;
+}
+/******* END of Menu butttons *************/
+
+#main-content #head {
+	font-size: 4em;
+}
+
+/*TILES*/
+.tile {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 3px green solid;
+	overflow: hidden;
+	color: black;
+	font-size: 1.6em;
+	padding-left: 10px; 
+	text-align: center;
+	background-color: pink;
+}
+.tile span {
+	width: 100%;
+	font-size: 1.6em;
+	text-transform: uppercase;
+}
+.tile p {
+	text-align: left;
+} 
+/******* END of Jumbotron HOME PAGE************/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#nav-list a {
+	font-size: 2.5em;
+	padding: 10px 0 10px 0;
+	}
+
+	.navbar-brand h1 {font-size: 2.2em;}
+	#main-content #head {
+	font-size: 3em;
+}
