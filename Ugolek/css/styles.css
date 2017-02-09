@@ -1,0 +1,223 @@
+
+body {
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+	/*color:grey;*/
+	background-color: red;
+	/*#252729;*/
+	/*#202223;*/
+}
+
+/************ HEADER *******************/
+#header-nav {
+	border-radius: 0;
+	border:0;
+	background-color: black;
+	padding-top:20px;
+	padding-bottom: 15px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#logo-img {
+	background: url("../images/logo-lg.png") no-repeat;
+	width: 125px;
+	height: 125px;
+	margin:10px;
+}
+
+.navbar-brand h1{ /*logo name */
+	text-transform: uppercase;
+	color:white;
+	/*font-weight: bold;*/
+	text-shadow: 2px 2px 10px white;
+	font-size: 4em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.navbar-brand p {
+	color:white;
+	text-transform: uppercase;
+	/*padding-bottom: 50px;	*/
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}	
+
+
+/* div.navbar-header #navbar-brand-shadow a h1:hover,
+ div.navbar-header #navbar-brand-shadow a h1:focus {
+	box-shadow: 4px 4px 70px 10px red;
+	font-size: 40px;
+} */
+
+/************ MENU *******************/
+#nav-list {
+	margin-top: 15px;
+}
+
+#nav-list li a {
+	color:white;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+#nav-list li a span{
+font-size: 25px;
+margin-bottom: 10px;
+	}
+
+#nav-list a:hover {
+	/*background-color: grey;*/
+	box-shadow: 0px 0px	70px 1px white;
+}	
+
+/*Menu button*/
+.navbar-header .icon-bar {
+	border: 2px solid white;
+}
+.navbar-header button.navbar-toggle{
+	border: 5px solid white;
+	clear:both;
+}
+
+button {
+	float:right;
+}
+
+/************ MAIN CONTENT *******************/
+#main-content {
+	margin-top: 10px;
+}
+
+div.jumbotron {
+	/*background: url('../images/main-1200.jpg') no-repeat;*/
+/*	width: 1200px;
+	height: 799px;*/
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+/************ MAIN CONTENT -TILES *******************/
+div#home-tiles {
+	/*border: 2px solid white;*/
+	/*margin-bottom: 30px;*/
+}
+
+div.menu-tile {
+	border: 2px solid black;
+	height:200px;
+	position: relative;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+div.menu-tile:hover {
+	box-shadow: 0px 0px	70px 1px black;
+}
+
+div.menu-tile span {
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	text-align: center;
+	border-top:2px solid black;
+	background-color: green;
+	opacity: .8;
+	text-transform: uppercase;
+	color: white;
+	font-size: 120%;
+}
+
+#menu {
+	background:url('../images/dishes/maincourse/bludo-7.jpg');
+	background-position: center;
+}
+
+#specials {
+	background:url('../images/dishes/maincourse/bludo-3.jpg');
+	background-position: center;
+}
+
+/************ FOOTER *******************/
+footer.panel-footer {
+	background-color:black;
+	color:white; 
+}
+
+footer div.container {
+	margin-top: 20px;
+}
+
+footer .container a {
+	float:left;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+#footer-copyright {
+	float:right;
+	font-size: 1.2em;
+	margin-top: 12px;
+	/*vertical-align: bottom;*/
+}
+
+footer span {
+	color:white;
+}
+
+/************ MEDIA QUIRIES *******************/
+@media (min-width: 768px) and  (max-width: 991px) {
+	#header-nav div.navbar-brand h1 {
+		font-size: 70px;
+	}
+	#header-nav div.navbar-brand h1 {
+		font-size: 55px;
+	}
+	#logo-img {
+		background: url("../images/logo-md.png") no-repeat;
+		width: 90px;
+		height: 90px;
+	}
+
+	#nav-list li a {
+		font-size: 18px;
+	}
+	#nav-list li a span{
+		font-size: 22px;}
+	/*MAIN CONTENT*/
+	/*	div.jumbotron {
+	background: url('../images/main-992.jpg') no-repeat;
+	width: 800px;
+	height: 661px;
+	}*/
+}
+
+@media (max-width: 768px) {
+	#header-nav div h1 {
+	font-size: 50px;
+	}
+	
+	#header-nav div p {
+	font-size: 14px;
+	}
+
+	#nav-list li a {
+	border-radius: 0px;
+	vertical-align: center;	
+	}
+
+	#nav-list span {
+	margin-right: 15px;
+	}
+}
+
+
